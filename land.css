@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+header {
+    background: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header img {
+    margin-top: 100px;
+}
+
+header h1, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    opacity: 0.75;
+    line-height: 1.6;
+
+}
+
+h1 {
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    font-size: 36px;
+
+}
+
+h3 {
+    color: var(--Dark-Grayish-Blue);
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons button {
+    border: none;
+    width: 250px;
+    height: 65px;
+    margin: 0px 15px;
+    border-radius: 45px;
+    font-size: 24px;
+    color: white;
+}
+
+.green {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 10px 9px hsl(171deg 66% 44% / 50%);
+}
+
+.green:hover {
+    background-color: hsl(171, 66%, 44%, 75%);
+}
+
+
+.blue {
+    background-color: var(--Light-Blue);
+    box-shadow: 1px 10px 9px hsl(233deg 100% 69% / 50%);
+}
+
+.blue:hover {
+    background-color: hsl(233, 100%, 69%, 75%);
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sec-1 p {
+    text-align: center;
+    align-self: center;
+    width: 60%;
+}
+
+.sec-2 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 50px;
+}
+
+.sec-2 .desc h5 {
+    text-align: left;
+}
+
+.sec-2 .desc p {
+
+    text-align: left;
+    width: 85%;
+}
+
+
+.sec-2 img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: -30px;
+    margin-right: 50px;
+}
+
+.end-of-sce-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sec-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.sec-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 35px;
+}
+
+.cards .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cards h5 {
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 80px;
+}
+
+.sec-5 h1 {
+    text-align: center;
+}
+
+
+
+.logo-s img {
+    justify-self: start;
+    width: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: (var(--Dark-Grayish-Blue));
+
+}
+
+a:hover {
+    color: var(--Strong-Cyan);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    background-color: #eee;
+    margin: 50px 30px;
+}
+
+.linkss {
+    display: flex;
+    line-height: 3.5;
+}
+
+.links a {
+    margin: 30px;
+    padding: 20px;
+}
+
+.links .logo-s {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.social {
+    letter-spacing: 30px;
+    margin-right: 30px;
+}
+
+.social ion-icon {
+    width: 40px;
+    height: 35px;
+}
+
+.social ion-icon:hover {
+    color: var(--Strong-Cyan);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 390px) {
+
+    header {
+        background: url("./images/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .sec-2 {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .sec-2 img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-2 .desc p {
+        text-align: center;
+    }
+
+    .sec-3 img {
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 35px;
+        flex-direction: column;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 50px;
+        gap: 80px;
+        flex-direction: column;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .linkss {
+        display: flex;
+        line-height: 3.5;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        background-color: #eee;
+        margin: 50px 30px;
+        flex-direction: column;
+    }
+
+    .social {
+        letter-spacing: 30px;
+        margin-right: 0px;
+    }
+
+    .logo-s img {
+        justify-self: start;
+        width: 50px;
+        margin-left: -20px;
+    }
+}
