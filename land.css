@@ -367,6 +367,6 @@ a:hover {
     .logo-s img {
         justify-self: start;
         width: 50px;
-        margin-left: -20px;
+        margin-left: 20px;
     }
 }
