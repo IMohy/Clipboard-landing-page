@@ -266,7 +266,7 @@ a:hover {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 475px) {
 
     header {
         background: url("./images/bg-header-mobile.png");
